@@ -9,6 +9,9 @@ I made the Tele 2 website.
 Tele 2 is a major telephone operator in the Nordic and Baltic countries and an alternative provider in many others, with about 17 million customers in 8 countries and under franchise in 1 additional countries. 
 
 
+By this website you can register your phone number, choose or change your phone's tariff, pay for tariff, create an personal account, choose and buy new phone number online.
+
+
 In my site you can see several pages like main page, personal account, number selection, registration, 4G, COVID-19. 
 
 
@@ -36,7 +39,7 @@ Also my website has language switcher, thanks for this you can read all site pag
 Also in my project in personal account page exists file uploading ability for your account's icon. And after creating the account we will recieve an email(email sending feature). 
 
 
-In my database I have related two tables.
+In my database I have related two tables. Tariff and User tables.
 
 
 It's th ERD of my tables:
