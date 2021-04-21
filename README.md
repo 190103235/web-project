@@ -44,3 +44,7 @@ In my database I have related two tables. Tariff and User tables.
 
 It's th ERD of my tables:
 
+
+
+
+![Entity Relationship Diagram (3)](https://user-images.githubusercontent.com/75376014/115524791-4de92180-a2b0-11eb-95dd-e80c9f29386e.jpg)
