@@ -39,10 +39,10 @@ Also my website has language switcher, thanks for this you can read all site pag
 Also in my project in personal account page exists file uploading ability for your account's icon. And after creating the account we will recieve an email(email sending feature). 
 
 
-In my database I have related two tables. Tariff and User tables.
+In my database I have related two tables. Tariff and User tables. Tariff table has attributes like tariff's and tariff's price etc. User tables has attributes like name, surname, iin and so on. We know that many people can have same tariff, so that's why my relation is many to one.
 
 
-It's th ERD of my tables:
+It's the ERD of my tables:
 
 
 
