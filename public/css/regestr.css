@@ -1,0 +1,91 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+img{
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.sub {
+	text-align: center;
+	font-size: 15px;
+	font-family: Arial;
+	padding-top: 15px;
+}
+
+h3 {
+	padding: 50px 150px 0px 150px;
+}
+
+#text1, #text2 {
+	padding: 20px 150px 0px 150px;
+}
+
+label {
+	padding: 50px 150px 0px 150px;
+	font-size: 25px;
+}
+
+span {
+	color: red;
+	font-size: 25px;
+}
+
+.inpu {
+	padding: 10px 5px 50px 150px;
+}
+
+input {
+	width: 20%;
+	box-sizing: border-box;
+	height: 45px;
+	text-align: center;
+	border-radius: 10px;
+	outline: none;
+}
+
+@media (max-width: 700px) {
+	h1  {
+		font-size: 25px;
+		padding: 1%;
+		margin: 1%;
+	}
+
+	h3 {
+		font-size: 20px;
+		padding: 1% 5%;	
+	}
+
+	#text1 {
+		padding: 1% 5%;
+		font-size: 13px;
+	}
+
+	#text2 {
+		padding: 1% 5%;
+		font-size: 13px;
+	}
+
+	label {
+		padding: 1% 5%;
+	}
+
+	input {
+		width: 100%;
+		margin: 1% -40%;
+	}
+
+	button {
+		width: 30%;
+		margin-left: 40%;
+		padding: 1%;
+	}
+}

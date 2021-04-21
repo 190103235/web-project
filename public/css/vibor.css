@@ -1,0 +1,47 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+img {
+	width: 100%;
+	height: 625px;
+}
+
+#topic {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.tablee {
+	padding: 40px 150px 0px 150px;
+	text-align: center;
+}
+
+table {
+	height: 500px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+@media (max-width: 700px) {
+	img {
+		width: 100%;
+		height: 100%;
+	}
+
+	#topic {
+		padding: 1%;
+		font-size: 25px;
+	}
+
+	table {
+		height: 100%;
+		width: 100%;
+		font-size: 10px;
+	}
+
+	.tablee {
+		padding: 1%;
+	}
+}

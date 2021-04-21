@@ -1,0 +1,351 @@
+.part1 {
+	background-color: black;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px 25px;
+	opacity: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.verline {
+	border-left: 2px solid white;
+	height: 80px;	
+}
+
+#logo, #g4, #usluga, #vibor, #regestr, #covid, #lichnyi {
+	cursor: pointer;
+}
+
+.img1 {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: relative;
+}
+
+#lichnyi {
+	background-color: black;
+	color: white;
+}
+
+.user_profile {
+	position: absolute;
+    top: 80px;
+    right: 30px;
+    margin: 0;
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 5px;
+    z-index: 1;
+    display: none;
+}
+
+#user_name {
+	color: white;
+	margin: 0;
+    padding: 10px;
+    display: inline;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.popup{
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    z-index: 2;
+    opacity: 0;
+}
+
+.popup-content{
+    background-color: white;
+    height: 330px;
+    width: 500px;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+input{
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    padding: 8px;
+}
+
+.closed{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.button-box {
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px pink;
+	border-radius: 30px;
+}
+
+.toggle-btn {
+	padding: 10px 30px;
+	cursor: pointer;
+	position: relative;
+	border: 0;
+	outline: none;
+	background: transparent;
+	position: relative;
+}
+
+#pro_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline;
+}
+
+ label {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+
+
+.solution {
+    text-align: center;
+    font-size: 50px;
+    padding: 3%;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.part2 {
+    margin: 10px 100px;
+}
+
+.part2 button {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0 30%;
+}
+
+.part2 h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.part2 p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-img-top {
+    border-bottom: 1px solid;
+}
+
+.part3 {
+    background-color: white;
+    margin-right: 40px;
+}
+
+#uslugit {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.dives {
+    display: inline;
+
+}
+
+.divv {
+    height: 300px;
+    width: 700px;
+    color: white;
+}
+
+#div1 {
+    background-color: #14d114;
+    margin-left: 50px;
+    
+}
+
+#div2 {
+    background-color: #c31025;
+}
+
+#div3 {
+    background-color: #d17614;
+    margin-left: 50px;
+} 
+
+#div4 {
+    background-color: #2a8394;
+}
+
+.divv p {
+    font-size: 35px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.divv h6 {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.pair1 {
+    display: flex;
+}
+
+.pair2 {
+    display: flex;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 15px;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    color: black;
+}
+
+.xx {
+    float: right;
+    padding: 20px 300px;
+}
+
+.footer {
+    color: white;
+}
+
+.addr {
+    padding: 10px 50px;
+}
+
+#last {
+    padding: 10px 50px;
+}
+@media (max-width: 700px) {
+   label {
+    display: block;
+   }
+
+   #logo {
+    display: none;
+   }
+   .header {
+    display: block;
+    text-align: center;
+   }
+
+   .header div {
+    border-bottom: 1px solid;
+    padding: 10px 0;
+   }
+
+   .verline {
+    display: none;
+   }
+   #toggle:checked + .header{
+    display: none;
+   }
+   .solution {
+    font-size: 25px;
+    padding: 0px;
+   }
+
+   br {
+    display: none;
+   }
+   .card{
+    margin-bottom: 20px;
+   }
+   .divv {
+    width: 400px;
+    height: 200px;
+    font-size: 10px;
+   }
+   .dives {
+    display: inline-block;
+    padding: 20px 60px;
+   }
+   .pair1 {
+    display: block;
+   }
+   .pair2 {
+    display: block;
+   }
+   #div1,#div2, #div3, #div4 {
+    margin-left: 0px;
+    margin-bottom: 20px;
+   }
+   .divv p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.divv h6 {
+    font-size: 15px;
+    padding: 20px 30px;
+}
+
+.pair3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.xx {
+    padding: 20px;
+}
+
+#last {
+    padding: 10px;
+}
+}
+
+.langs a{
+    color: white;
+}

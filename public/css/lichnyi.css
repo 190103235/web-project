@@ -1,0 +1,139 @@
+body {
+	background-image: url('https://static0.makeuseofimages.com/wp-content/uploads/2018/11/dark-wallpapers.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.lichnyi {
+	width: 700px;
+	height: 500px;
+	border: 2px solid white;
+	border-radius: 25px;
+	box-shadow: 0 0 20px 9px #8FBC8F;
+	background-color: white;
+	margin: 70px 0px 0px 300px; 
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.btngroup button {
+	cursor: pointer;
+	border: 0;
+	outline: none;
+	background: transparent;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 15px;
+	padding-bottom: 7px;
+}
+
+.btngroup {
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 300px;
+	margin: 10px 100px 15px 200px;
+	background-color: pink;
+	font-size: 20px;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.inputfield {
+	width: 450px;
+	margin: 30px 170px 30px 120px;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 1px solid;
+	outline: none;
+	background: transparent;
+}
+
+.btn {
+	position: absolute;
+	transition: .5s;
+	margin: 10px 0px 20px -100px;
+	background: orange;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	padding: 10px 30px;
+	cursor: pointer;
+}
+
+.inputgroup {
+	position: absolute;
+}
+
+.check {
+	margin: 10px 2px 50px -100px;
+}
+
+
+#registr {
+	left: 1000px;
+	position: absolute;
+}
+
+#login {
+	position: absolute;
+}
+
+.user_profile{
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    margin: 0;
+    background-color: grey;
+    border-radius: 5px;
+   /* z-index: 1;*/
+    display: none;
+}
+
+#exit{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline;
+}
+
+#user_num{
+	color: white;
+    margin: 0;
+    padding: 10px;
+    display: inline;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 700px) {
+	.lichnyi {
+		width: 400px;
+		height: 500px;
+		margin: 10% 8%;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+
+	.btngroup {
+		margin: 3% 15%;
+		width: 300px;
+		font-size: 10px;
+	}
+
+	.inputfield {
+		padding: 0px;
+		width: 350px;
+		margin: 30px 25px;
+	}
+
+	.check {
+		margin: 10px 2px 50px -10px;
+	}
+
+	#bton {
+		margin: 1% -10%;
+	}
+}
